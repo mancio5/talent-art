@@ -1,0 +1,98 @@
+/****** GENERAL STYLES ******/
+.chiodo{
+	width:20px;
+	height: 20px;
+}
+.feature-wrap{
+	background: #eee;
+}
+.features .feature{
+	min-height: 40px;
+}
+#cta-diventa-artista{
+	background:rgb(56,170,96);
+	color: #fff;
+}
+#cta-diventa-artista h2, #cta-diventa-artista p{
+	color: #fff;
+}
+/****** PAGINA ARTISTA ******/
+#grid-quadri-artista-wrap{
+	background: #222;
+}
+#grid-quadri-artista-wrap h3{
+	color: #eee;
+}
+#contact-artista-wrap{
+	background:#eee;
+}
+/****** PAGINA QUADRO ******/
+#info-quadro h4,p{
+	color: #222;
+}
+#info-quadro .quadro-tile{
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+	background: #DBCE85;
+}
+#info-quadro .cast-shadow{
+	border:1px solid #777;
+}
+#info-quadro .btn-pref{
+	padding-right: 3px;
+	top: 3px;
+	position: relative;
+}
+#contact-artista-quadro-wrap{
+	background: #222;
+}
+#contact-artista-quadro-wrap .container .row h4{
+	color: #eee;
+}
+#contact-artista-quadro-wrap .container .row p{
+	color: #eee;
+}
+/****** PAGINA CLASSIFICA ******/
+.user-img-wrap {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 2px solid white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    overflow:hidden;
+}
+.user-img-wrap img {
+    display: block;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+.quadro-img-wrap{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	overflow:hidden;
+	margin-right: 5px;
+}
+.quadro-img-wrap img{
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+/****** PAGINA LISTA ARTISTI ******/
+#lista-artisti .artista .cont{
+	border: 1px solid #ddd;
+	background: #f8f8f8;
+	border-radius: 3px;
+}
+#lista-artisti .artista .cont .user-img-wrap{
+	margin:10px;
+}
+/****** PAGINA CHECKOUT ******/
+#checkout-sect .quadro{
+	max-height: 300px;
+}

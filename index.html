@@ -1,0 +1,25 @@
+---
+layout: none
+title: Home
+permalink: /
+---
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        {% include nav.html %}
+        <div class="main-container">
+            <h1>{{label.ARTISTI}}</h1>
+            {% for artista in site.data.artisti %}
+                <a href="artisti/{{  artista.name | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i>Michele</a>
+            {% endfor %}   
+        </div>
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
+</html>
+
+
+
