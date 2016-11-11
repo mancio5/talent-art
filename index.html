@@ -1,25 +1,26 @@
 ---
-layout: none
-title: Home
-permalink: /
+title: DataGen Demo
 ---
-<!DOCTYPE html>
-<html>
+<h1>People (generated from YAML)</h1>
 
-    {% include head.html %}
+<ul>
+{% for person in site.data.member %}
+  <li><a href="{{ person.full_name | datapage_url: 'people' }}">{{person.full_name}}</a></li>
+{% endfor %}
+</ul>
 
-    <body>
-        {% include nav.html %}
-        <div class="main-container">
-            <h1>{{label.ARTISTI}}</h1>
-            {% for artista in site.data.artisti %}
-                <a href="artisti/{{  artista.name | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i>Michele</a>
-            {% endfor %}   
-        </div>
-        {% include footer.html %}
-        {% include js.html %}
-    </body>
-</html>
+<h1>Pets (generated from JSON)</h1>
 
+<ul>
+{% for pet in site.data.pet %}
+<li><a href="{{ pet.full_name | datapage_url: 'pets' }}">{{pet.full_name}}</a></li>
+{% endfor %}
+</ul>
 
+<h1>Artisti (generated from JSON)</h1>
 
+<ul>
+{% for artista in site.data.artisti %}
+<li><a href="{{ artista.full_name | datapage_url: 'artisti' }}">{{artista.full_name}}</a></li>
+{% endfor %}
+</ul>

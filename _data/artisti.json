@@ -2,7 +2,7 @@
  
     {
         "id":0,
-        "name":"Gabriele scartozzi",
+        "full_name":"Gabriele scartozzi",
         "intro":"dipingo per hobby e per passione...autodidatta...",
         "img":"78.jpg",
         "livello":2,
@@ -14,7 +14,7 @@
     },
     {
         "id":1,
-        "name":"Ulder",
+        "full_name":"Ulder",
         "intro":"Architetto con la passione della pittura...",
         "img":"65.jpg",
         "livello":2,
@@ -26,7 +26,7 @@
     },
     {
         "id":2,
-        "name":"Zio Gino",
+        "full_name":"Zio Gino",
         "intro":"Architetto con la passione della pittura...",
         "img":"106.jpg",
         "livello":2,
@@ -38,7 +38,7 @@
     },
     {
         "id":3,
-        "name":"Gabriele scartozzi",
+        "full_name":"Gabriele scartozzi",
         "intro":"dipingo per hobby e per passione...autodidatta...",
         "img":"78.jpg",
         "livello":2,
@@ -50,7 +50,7 @@
     },
     {
         "id":4,
-        "name":"Ulder",
+        "full_name":"Ulder",
         "intro":"Architetto con la passione della pittura...",
         "img":"65.jpg",
         "livello":2,
@@ -61,7 +61,7 @@
         "quadri":[67,72,23,15],
     },
     {
-        "name":"Ulder",
+        "full_name":"Ulder",
         "intro":"Architetto con la passione della pittura...",
         "img":"106.jpg",
         "livello":2,
